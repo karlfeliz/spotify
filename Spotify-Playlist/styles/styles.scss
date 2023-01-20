@@ -1,0 +1,42 @@
+
+body {
+    min-height: 100vh;
+    font-size: 100%;
+    max-width: 1440px;
+    background-color: #10D164;
+    margin: 0 auto;
+    
+}
+
+
+.logo{
+    width: 300px;
+}
+.tarjeta{
+box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.2);
+max-width: 400px;
+width: 80%;
+background-color: white;
+display: inline-block;
+height: 400px;
+
+   &__img{
+    width: 200px;
+    height: 200px;
+    
+   }
+
+   &__container{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+   }
+
+
+   &__duracion{
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+   }
+}
+
